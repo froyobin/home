@@ -12,7 +12,12 @@ share: true
 Syntax highlighting is a feature that displays source code, in different colors and fonts according to the category of terms. This feature facilitates writing in a structured language such as a programming language or a markup language as both structures and syntax errors are visually distinct. Highlighting does not affect the meaning of the text itself; it is intended only for human readers.[^1]
 
 adsfasdf
-asf {% img /images/posts/2015_01_09/nat_1.png %}
+
+
+
+![Alt te水电费xt]( http://froyobin.github.io/home/images/nat_1.png "Optional title")
+
+
 lkjkjkjkjj大多数发生的飞阿斯顿飞阿萨德飞
 <!--more-->
 
