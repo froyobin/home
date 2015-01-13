@@ -4,8 +4,7 @@ title: NAT TRAVERSAL （1）
 description: "介绍了NAT穿透技术，目前在实现了UDP方式，TCP正在研究中"
 category: sample-post
 tags: [UDP, NAT, 渗透]
-image:
-	feature: nat_1.png 
+imagefeature: nat_1.png 
 comments: true
 share: true
 ---
