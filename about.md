@@ -7,7 +7,7 @@ image:
   feature: 
 ---
 <figure>
-  <img src="{{ site.url }}/images/moe.png" alt="ibrother">
+  <img src="{{ site.url }}/images/moe.png" alt="froyo">
   <figcaption>ibrother</figcaption>
 </figure>
 
