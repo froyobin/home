@@ -92,8 +92,7 @@ Ususally, the DHCP server is configured as below.
 You can find that this configuration point the tftp server is at 192.168.10.123, and the file to load from tftp server is ubuntu.pxe.
 This is the reason why I should rename the pxelinux.0 to ubuntu.pxe.
 
-##**Booting ubuntu.pex**
-
+##**5.3 Booting ubuntu.pex**
 Then the ubuntu.pxe will take control of the computer, according to its default configuration, it will find the boot entry from given
 path, on my systrem, it will try to load pxelinux.cfg/default.
 
@@ -117,7 +116,7 @@ Then you can find the cfg find in the given path. And finally, it will loads the
 
 It is clear that the system will load the kernel and initrd file from given path.
 
-##** Booting from OS**
+##**5.4 Booting from OS**
 
 Finally the system boots itself from kernel and initrd with passed parameters. In my example, it enters the install mode.
 
