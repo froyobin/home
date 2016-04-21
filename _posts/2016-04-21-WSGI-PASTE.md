@@ -216,6 +216,9 @@ Typically you have one or two sections, named “main”: an application section
 
 ## 2.1 PASTE Deploy Examples
 Firstly, this is the config.ini file:
+
+
+
 ~~~ini
 [app:home]
 paste.app_factory = apps:MyHome.app_factory
@@ -389,7 +392,7 @@ if __name__ == '__main__':
         server.wait()
 ~~~
 
-## 2.3Tests:
+## 2.2 TESTS
 ~~~
 yb@yb-ThinkPad-T440p:~$ curl http://127.0.0.1:8001
 Hello from MyHome
