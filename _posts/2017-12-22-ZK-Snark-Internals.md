@@ -45,7 +45,7 @@ Before you start, It is better to have the background knowledge about the **elli
  if you have already familiar with the knowledge mentioned above, believe me, it is easy for you to understand the zk-snark:)
 
 
-#**2. What is zk-snark**
+**2. What is zk-snark**
 Roughly speaking, zk-snark is one of Verifiable Computation protocol. It enables the verifier to prove that he/she knows the value and the polynomial without leaking any information about the value or the polynomial. This is of critical importance of privacy protection of the blockchain systems. One of the example is described as the follows:
 
 + A customer purchases the item from the retailer.
@@ -90,4 +90,30 @@ Let's say we have a polynomial $a^3+a+5=b$, and we want to show the verifier tha
 
 So, firstly, we covert this polynomial into a Circuit.
 
-![Network configuration]({{ site.url }}/images/virtualbox_network.png)
+<div align=center>
+
+![Network configuration](https://raw.githubusercontent.com/froyobin/home/gh-pages/images/zksnark1.PNG)
+</div>
+let's define the variables as follows:
+
+ + **'one'**:  The dummy value, it used to multiplied by the constant value.
+ + **'x'**: The input value.
+ + **'out'**: final output.
+ + **'sym_1'**: intermediate value.
+ + **'smy_2'**: intermediate value.
+ + **'y'**: intermediate value.
+
+
+Let's define **g_l** as the value enter the gate from left hand side, **g_r** as the value enter the gate from right hand side, and **c** as the output from the given gate.
+So for passing the first gate, the **g_l**, **g_r** and **c** are:
+
+
+
+$$
+  \begin{matrix}
+   'one' & 'x' &  'out' & 'sym_1' & 'y' &'sym_2' \\
+   1 & 2 & 3 \\
+   4 & 5 & 6 \\
+   7 & 8 & 9
+  \end{matrix} \tag{1}
+$$
